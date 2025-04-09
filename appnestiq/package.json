@@ -1,27 +1,30 @@
 {
-  "name": "launchpad-landing",
-  "version": "1.0.0",
+  "name": "startup-nextjs-template",
+  "version": "2.1.0",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "autoprefixer": "latest",
-    "clsx": "^2.1.1",
-    "framer-motion": "^12.6.3",
-    "lucide-react": "^0.487.0",
-    "next": "^15.2.5",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "15.1.6",
+    "next": "^15.3.0",
     "next-themes": "^0.2.1",
-    "postcss": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "tailwindcss": "latest"
+    "react-modal-video": "^2.0.1"
   },
   "devDependencies": {
-    "@types/node": "22.14.0",
-    "@types/react": "^19.1.0",
-    "@types/react-dom": "^19.1.1",
-    "typescript": "^5.8.3"
+    "@types/node": "^20.8.9",
+    "@types/react": "19.0.8",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
   }
 }
